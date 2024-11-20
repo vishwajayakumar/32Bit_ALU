@@ -81,7 +81,7 @@ Similarly, create your test bench using gedit <filename_tb>.v or <filename_tb>.v
 
 ## Test Bench :
 
-
+***
 module alu_32bit_tb_case;
 reg [31:0]a;
 reg [31:0]b;
@@ -102,7 +102,7 @@ b=32'hFFFFFFFF;
 #10;$stop;
 end
 endmodule
-
+***
 
 Use Save option or Ctrl+S to save the code or click on the save option from the top most right corner and close the text file.
 
@@ -248,7 +248,7 @@ Steps for simulation – Run the simulation command with simulator options
 
 ### Fig 9: Design Browser window for simulation
 
-![image](https://github.com/user-attachments/assets/b37dc2ab-48b0-4a64-814b-74f15f655def)
+![image](https://github.com/user-attachments/assets/012e15f9-fa3f-4e53-b101-88f711a5c2e9)
 
 ### Fig 10:Simulation Waveform Window
 
