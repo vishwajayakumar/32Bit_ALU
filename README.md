@@ -81,8 +81,7 @@ Similarly, create your test bench using gedit <filename_tb>.v or <filename_tb>.v
 
 ## Test Bench :
 
-***
-module alu_32bit_tb_case;
+***module alu_32bit_tb_case;
 reg [31:0]a;
 reg [31:0]b;
 reg [2:0]f;
@@ -101,8 +100,7 @@ b=32'hFFFFFFFF;
 #10 f=3'b110;
 #10;$stop;
 end
-endmodule
-***
+endmodule***
 
 Use Save option or Ctrl+S to save the code or click on the save option from the top most right corner and close the text file.
 
