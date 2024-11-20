@@ -32,7 +32,7 @@ A Blank Document opens up into which the following source code can be typed down
 
 ## a)To Verify the Functionality using Test Bench
 
-## Source Code – Using Case Statement :
+### Source Code – Using Case Statement :
 ~~~
 module alu_32bit_case(y,a,b,f);
 input [31:0]a;
@@ -61,7 +61,7 @@ Use Save option or Ctrl+S to save the code or click on the save option from the 
 
 Similarly, create your test bench using gedit <filename_tb>.v or <filename_tb>.vhdl to open a new blank document (alu_32bit_tb_case).
 
-## Test Bench :
+### Test Bench :
 
 ~~~
 module alu_32bit_tb_case;
